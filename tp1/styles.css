@@ -1,0 +1,71 @@
+/*
+
+#851D41
+#DB3056
+#FF6464
+#FFB99A
+#FFF9F9
+
+*/
+
+
+.asd {
+    display: flex;
+    flex-direction: row;
+}
+
+.filas {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-nav {
+    background-color:#db3056;
+}
+
+.bg-rosa {
+    background-color:#FFB99A;
+}
+
+.bg-claro {
+    background-color: #FFF9F9;
+}
+
+.bordes {
+    --bs-btn-color: #212529;
+    --bs-btn-border-color: #212529;
+    --bs-btn-hover-bg: #d4a89a;
+    --bs-btn-hover-border-color: #212529;
+}
+
+.bg-s {
+    opacity: 0.75;
+    background-color: #212529;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+
+}
+
+.carousel {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.derecha {
+    flex-direction: row-reverse;
+}
